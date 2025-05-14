@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Online - Saúde Mental</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="cabecalho">
+    <h1>Consulta Online para Aconselhamento de Saúde Mental</h1>
+    </div>
+    
+    <div id="conteudo">
+        <h2>Por que a consulta online é importante?</h2>
+        <p>A saúde mental é tão essencial quanto a saúde física. Muitas vezes, problemas emocionais e psicológicos podem afetar nossa qualidade de vida, relações interpessoais e produtividade. A consulta online oferece um acesso mais prático e discreto para quem precisa de apoio, principalmente para aqueles que têm dificuldades de se deslocar até um consultório ou preferem o conforto de estar em casa.</p>
+        
+        <p>Com um especialista, você poderá conversar sobre suas preocupações, receber orientações adequadas e, se necessário, buscar o tratamento mais apropriado para o seu caso. A terapia online tem mostrado ser tão eficaz quanto a terapia presencial, com a vantagem de ser mais acessível e conveniente.</p>
+    
+
+   
+        <h2>Como funciona a consulta online?</h2>
+        <p>Ao solicitar uma consulta online, você será agendado para uma sessão por vídeo, áudio ou até mesmo chat, dependendo da sua preferência e disponibilidade do profissional. O processo é simples:</p>
+        <p>1. Preenchimento do formulário: Envie seu nome, e-mail e uma breve descrição sobre o motivo da consulta.</p>
+        <p>2. Agendamento: Após o envio, entraremos em contato para agendar a melhor data e hora para a sua sessão.</p>
+        <p>3. Sessão: Durante a sessão, você poderá falar sobre suas preocupações e receber aconselhamento adequado de um profissional.</p>
+        <p>4. Continuidade: Se necessário, sessões adicionais podem ser agendadas para dar continuidade ao acompanhamento.</p>
+    
+    
+    
+        <h2>Quais problemas podem ser tratados?</h2>
+        <p>As consultas online podem ajudar a lidar com uma variedade de questões emocionais e psicológicas, incluindo, mas não se limitando a:</p>
+        <p>Ansiedade e ataques de pânico</p>
+        <p>Depressão e tristeza persistente</p>
+        <p>Dificuldades nos relacionamentos</p>
+        <p>Estresse e sobrecarga emocional</p>
+        <p>Baixa autoestima</p>
+        <p>Transtornos alimentares</p>
+        <p>Trauma e perda</p>
+   
+
+    <p>Preencha o formulário abaixo para solicitar uma consulta online com um profissional de saúde mental e começar a cuidar do seu bem-estar emocional.</p>
+
+    
+    <form action="enviar_consulta.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Descrição do Caso:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar Consulta</button>
+        
+        <br>
+        <br>
+
+        <a href="index.html" class="voltar-btn">Voltar à Página Inicial</a>
+    </div>
+    </form>
+
+    <footer>
+        &copy; 2025 - Saúde Mental Positiva | <a href="contato.html">Contato</a>
+    </footer>
+
+</body>
+</html>

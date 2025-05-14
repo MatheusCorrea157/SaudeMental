@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Eventos - Saúde Mental</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+</head>
+<body>
+    <div id="cabecalho">
+    <h1>Agenda de Eventos e Workshops</h1>
+    </div>
+    <div class="event-container">
+        <div class="event-item">
+            <p class="event-title">Workshop de Mindfulness: Técnicas para Reduzir o Estresse</p>
+            <p class="event-details">Data: 20 de Maio de 2025 - 18h às 20h</p>
+            <p class="event-details">Local: Online (via Zoom)</p>
+            <p class="event-details">Instrutor: Dr. Rafael Silva - Psicólogo Clínico</p>
+        </div>
+        <br>
+        <br>
+        <div class="event-item">
+            <p class="event-title">Palestra: Ansiedade e os Desafios do Mundo Moderno</p>
+            <p class="event-details">Data: 25 de Maio de 2025 - 19h às 21h</p>
+            <p class="event-details">Local: Centro Comunitário Vida Plena</p>
+            <p class="event-details">Palestrante: Dra. Ana Paula Rocha - Psiquiatra</p>
+        </div>
+        <br>
+        <br>
+
+        <div class="event-item">
+            <p class="event-title">Grupo de Apoio: Conversa Aberta sobre Saúde Emocional</p>
+            <p class="event-details">Data: 30 de Maio de 2025 - 17h às 19h</p>
+            <p class="event-details">Local: Online (via Google Meet)</p>
+            <p class="event-details">Facilitador: Psicóloga Marina Costa</p>
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <div class="form-container">
+        <h2>Inscreva-se para Participar</h2>
+        <form action="inscricao.php" method="POST">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone (opcional):</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            
+
+            <label for="mensagem">Mensagem (opcional):</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Qual evento você deseja participar?"></textarea>
+
+            <a href="fim.html"><button>Enviar inscrição</button></a>
+
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2025 - Saúde Mental Positiva | <a href="contato.html">Contato</a>
+    </footer>
+
+</body>
+</html>
